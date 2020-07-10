@@ -10,7 +10,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
         <a class="navbar-brand" href="index.html">Seriale.pl</a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainmenu">
@@ -62,48 +62,105 @@
 
 
     <div class="container-fluid">
+
         <div class="row">
-            <div class="col-sm-12 text-center p-3 bg-dark text-white">
-                <h1 class="display-4">Na tej stronie poznasz opisy popularnych seriali oraz ich oceny.<br>
-                I nie tylko!</h1>
+            <div class="col-md-12 text-center" id="desc">
+                <h1 class="display-4" id="xdd">Na tej stronie poznasz opisy popularnych seriali oraz ich oceny.
+                I nie tylko!</h1><br><br>
             </div>
         </div>
-        <div class="row p-3">
-            <div class="col-sm-4 text-center">
+
+        <div class="row my-5">
+
+            <div class="col-md-4 text-center" id="xdd">
                 <svg width="5em" height="5em" viewBox="0 0 16 16" class="bi bi-calendar-date" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                     <path d="M6.445 11.688V6.354h-.633A12.6 12.6 0 0 0 4.5 7.16v.695c.375-.257.969-.62 1.258-.777h.012v4.61h.675zm1.188-1.305c.047.64.594 1.406 1.703 1.406 1.258 0 2-1.066 2-2.871 0-1.934-.781-2.668-1.953-2.668-.926 0-1.797.672-1.797 1.809 0 1.16.824 1.77 1.676 1.77.746 0 1.23-.376 1.383-.79h.027c-.004 1.316-.461 2.164-1.305 2.164-.664 0-1.008-.45-1.05-.82h-.684zm2.953-2.317c0 .696-.559 1.18-1.184 1.18-.601 0-1.144-.383-1.144-1.2 0-.823.582-1.21 1.168-1.21.633 0 1.16.398 1.16 1.23z"/>
                     <path fill-rule="evenodd" d="M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1zm1-3a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2z"/>
                     <path fill-rule="evenodd" d="M3.5 0a.5.5 0 0 1 .5.5V1a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 .5-.5zm9 0a.5.5 0 0 1 .5.5V1a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 .5-.5z"/>
                 </svg>
                 <br><br>
-                <h1>Najszybciej aktualizujemy naszą listę seriali!</h1>
+                <h2>Najszybciej aktualizujemy naszą listę seriali!</h2>
                 <p>Już w dzień premiery dodajemy nowe informacje.<br>
                 Sprawdź sam!</p>
             </div>
-            <div class="col-sm-4 text-center">
+
+            <div class="col-md-4 text-center" id="xdd">
                 <svg width="5em" height="5em" viewBox="0 0 16 16" class="bi bi-camera" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" d="M15 12V6a1 1 0 0 0-1-1h-1.172a3 3 0 0 1-2.12-.879l-.83-.828A1 1 0 0 0 9.173 3H6.828a1 1 0 0 0-.707.293l-.828.828A3 3 0 0 1 3.172 5H2a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2z"/>
                     <path fill-rule="evenodd" d="M8 11a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5zm0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
                     <path d="M3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z"/>
                 </svg>
                 <br><br>
-                <h1>Nasza strona zawiera wiele zdjęć najwyższej jakości!</h1>
+                <h2>Nasza strona zawiera wiele zdjęć najwyższej jakości!</h2>
                 <p>Każdy serial ma swoją własną galerię.</p>
             </div>
-            <div class="col-sm-4 text-center">
+
+            <div class="col-md-4 text-center" id="xdd">
                 <svg width="5em" height="5em" viewBox="0 0 16 16" class="bi bi-star" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
                 </svg>
                 <br><br>
-                <h1>Każdy serial został oceniony w skali 1-10!</h1>
+                <h2>Każdy serial został oceniony w skali 1-10!</h2>
                 <p>Znajdź swój ulubiony serial i sprawdź jaką ma średnią ocenę.</p>
             </div>
+
         </div>
+
+        <div class="row">
+
+            <div class="col-md-12 p-3" id="desc">
+                <h1 class="display-4" id="xdd">Przykładowe seriale</h1><br><br>
+            </div>
+
+        </div>
+
+        <div class="row" id="desc" style="padding-left: 60px;">
+
+            <div class="col-md-3">
+                <a href="#"><figure class="figure">
+                    <img src="tc.jpg" class="figure-img img-fluid rounded" alt="The 100">
+                    <figcaption class="figure-caption">The 100</figcaption>
+                </figure></a>
+            </div>
+
+            <div class="col-md-3">
+                <a href="#"><figure class="figure">
+                    <img src="dc.jpg" class="figure-img img-fluid rounded" alt="Dark">
+                    <figcaption class="figure-caption">Dark</figcaption>
+                </figure></a>
+            </div>
+
+            <div class="col-md-3">
+                <a href="#"><figure class="figure">
+                    <img src="vc.jpg" class="figure-img img-fluid rounded" alt="Vikings">
+                    <figcaption class="figure-caption">Wikingowie</figcaption>
+                </figure></a>
+            </div>
+
+            <div class="col-md-3">
+                <a href="#"><figure class="figure">
+                    <img src="uc.jpg" class="figure-img img-fluid rounded" alt="The Umbrella Academy">
+                    <figcaption class="figure-caption">The Umbrella Academy</figcaption>
+                </figure></a><br><br><br>
+            </div>
+
+        </div>
+
+        <div class="container bg-no-overlay" id="img">
+            <div class="row text-center d-block w-100">
+                <br>
+                <h1>Gotowy zobaczyć oceny seriali?</h1>
+                <br><br>
+                <button type="button" class="btn btn-dark btn-lg">Przejdź</button><br><br><br><br>
+            </div>
+        </div>
+
         <div class="row p-1 bg-dark text-white">
-            <div class="col-sm-12 text-right">
+            <div class="col-md-12 text-right">
                 &copy; 2020 Seriale.pl Designed by GB.
             </div>
         </div>
+        
     </div>
 </body>
 </html>
