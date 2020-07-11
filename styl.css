@@ -2,7 +2,7 @@ p{
     font-size: 20px;
 }
 #desc{
-    background-color: #eef7fd;
+    background-color: #f8f9fa;
 }
 #xdd{
     padding-left: 60px;
@@ -19,6 +19,9 @@ p{
     max-width: 1920px;
     margin: 0px;
 }
-.container-fluid #img{
-    margin-left: -20px;
+#jumbo{
+    margin-bottom: 0; 
+    background-image: url(w.jpg);
+    max-height: 500px;
+    color: white;
 }
